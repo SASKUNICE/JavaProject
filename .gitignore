@@ -1,0 +1,19 @@
+# Fichiers de compilation
+/bin/
+/build/
+
+# Fichiers de configuration IDE (Eclipse)
+.classpath
+.project
+.settings/
+
+# Fichiers générés par Maven
+/target/
+
+# Fichiers de logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.bak
+

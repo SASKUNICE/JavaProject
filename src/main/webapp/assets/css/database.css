@@ -1,0 +1,86 @@
+/* Style pour les titres principaux */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333; /* Noir foncé */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ddd; /* Ligne grise discrète */
+}
+
+/* Sous-titres */
+h2 {
+    text-align: center;
+    font-size: 22px;
+    color: #555; /* Gris foncé */
+    margin-bottom: 15px;
+}
+
+/* Titres dans les tableaux */
+th {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333; /* Noir foncé */
+}
+
+/* Espacement autour du tableau */
+table {
+    margin-top: 20px;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container centré */
+.container {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Titre */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Champs input */
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Bouton */
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Placeholder styling */
+input::placeholder {
+    font-style: italic;
+    color: #aaa;
+}
